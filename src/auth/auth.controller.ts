@@ -11,9 +11,9 @@
      }
      //--------------------------------------------------------------------------------------------
      @Post('signup')
-     signup(@Body() mdto: AuthDto){
+     signup(@Body() dto: AuthDto){
          
-         return this.authService.signup()
+         return this.authService.signup(dto)
      }
      //--------------------------------------------------------------------------------------------
      @Post('signin')

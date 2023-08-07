@@ -3,3 +3,12 @@ Next-generation Node.js and TypeScript ORM
 Installing prisma           : npm install -D prisma@latest
 Installing prisma client    : npm install @prisma/client
 Init prisma                 : npx prisma init
+
+To execute migrations          : npx prisma migrate dev
+
+To use decorators validation: npm install --save class-validator class-transformer
+
+In the main.ts file: app.useGlobalPipes(new ValidationPipe())
+
+to has password     : npm i argon2
+
