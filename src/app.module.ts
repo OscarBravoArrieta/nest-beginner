@@ -12,9 +12,3 @@ import { PrismaModule } from './prisma/prisma.module';
   providers: [AppService],
 })
 export class AppModule {}
-
-
-// https://www.youtube.com/watch?v=GHTA143_b-s
-// NestJs Course for Beginners - Create a REST API
-
-//59:00

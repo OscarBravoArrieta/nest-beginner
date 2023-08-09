@@ -4,7 +4,7 @@ Installing prisma           : npm install -D prisma@latest
 Installing prisma client    : npm install @prisma/client
 Init prisma                 : npx prisma init
 
-To execute migrations          : npx prisma migrate dev
+To execute migrations       : npx prisma migrate dev
 
 To use decorators validation: npm install --save class-validator class-transformer
 
@@ -12,3 +12,7 @@ In the main.ts file: app.useGlobalPipes(new ValidationPipe())
 
 to has password     : npm i argon2
 
+https://www.youtube.com/watch?v=GHTA143_b-s
+NestJs Course for Beginners - Create a REST API
+
+01:25
