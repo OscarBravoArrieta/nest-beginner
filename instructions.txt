@@ -12,7 +12,19 @@ In the main.ts file: app.useGlobalPipes(new ValidationPipe())
 
 to has password     : npm i argon2
 
+npm add @nestjs/config
+You should to import configmodule in app.module
+
+
+to autehricate
+npm install @nestjs/passport passport
+npm install @nestjs/jwt passport-jwt
+npm install -D @types/passport-jwt
+
+in the auth.module
+imports: [JwtModulw.register]
+
 https://www.youtube.com/watch?v=GHTA143_b-s
 NestJs Course for Beginners - Create a REST API
 
-01:25
+01:50
