@@ -31,7 +31,8 @@
                  }
              })
          delete user.hash
-         return null
+         //console.log(user)
+         return user
      }
  }
 
