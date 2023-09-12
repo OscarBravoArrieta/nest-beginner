@@ -21,10 +21,13 @@ npm install @nestjs/passport passport
 npm install @nestjs/jwt passport-jwt
 npm install -D @types/passport-jwt
 
+To unitary test
+npm install -D pactum
+
 in the auth.module
 imports: [JwtModulw.register]
 
 https://www.youtube.com/watch?v=GHTA143_b-s
 NestJs Course for Beginners - Create a REST API
 
-02:20: Nest.js Guards
+02:30: Nest.js Guards
